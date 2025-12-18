@@ -1,0 +1,115 @@
+/* RESET BÁSICO */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* CUERPO */
+body {
+    background: linear-gradient(180deg, #020617, #020617);
+    color: #e5e7eb;
+    font-family: 'Segoe UI', system-ui, sans-serif;
+    padding: 60px 20px;
+}
+
+/* TÍTULO PRINCIPAL */
+h1 {
+    text-align: center;
+    font-size: 48px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    color: #f8fafc;
+    margin-bottom: 20px;
+}
+
+/* TEXTO PRINCIPAL */
+p {
+    max-width: 620px;
+    margin: 0 auto 50px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.7;
+    color: #cbd5f5;
+}
+
+/* SUBTÍTULO */
+h2 {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 25px;
+    color: #94a3b8;
+    letter-spacing: 1px;
+}
+
+/* LISTA */
+ul {
+    list-style: none;
+    max-width: 520px;
+    margin: 0 auto;
+}
+
+/* TARJETAS */
+li {
+    background: rgba(255, 255, 255, 0.
+header {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 80px;
+    font-size: 14px;
+    color: #64748b;
+}
+/* POST */
+article {
+    max-width: 680px;
+    margin: 0 auto 60px;
+    padding: 45px;
+    background: rgba(255, 255, 255, 0.03);
+    border-radius: 22px;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+
+/* TÍTULO DEL POST */
+article h3 {
+    font-size: 30px;
+    margin-bottom: 10px;
+    color: #f8fafc;
+}
+
+/* FECHA */
+article small {
+    display: block;
+    margin-bottom: 25px;
+    color: #94a3b8;
+    font-size: 14px;
+}
+
+/* TEXTO */
+article p {
+    text-align: left;
+    margin-bottom: 20px;
+    font-size: 18px;
+    line-height: 1.8;
+    color: #e5e7eb;
+}
+nav {
+    margin-top: 20px;
+}
+
+nav a {
+    color: #cbd5f5;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 15px;
+    letter-spacing: 1px;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #f8fafc;
+}
