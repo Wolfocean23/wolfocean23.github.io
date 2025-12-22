@@ -1,41 +1,271 @@
-s<!DOCTYPE html>
-<html>
+<!DOCTYPE html>
+<html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Mi Primera Página</title>
-    <link rel="stylesheet" href="style.css">
+    <meta name="description" content="Blog personal de WOLFOCEAN.J.R. sobre creación, emociones, luz y oscuridad.">
+    <title>Blog · WOLFOCEAN.J.R.</title>
+
+    <style>
+        /* ---------- BASE ---------- */
+        body {
+            font-family: Georgia, "Times New Roman", serif;
+            line-height: 1.7;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        nav a {
+            margin: 0 10px;
+            text-decoration: none;
+            font-size: 14px;
+        }
+
+        article {
+            max-width: 700px;
+            margin: 0 auto 60px auto;
+            padding: 0 20px;
+        }
+
+        h1, h2 {
+            font-weight: normal;
+        }
+
+        .imagen-principal {
+            display: block;
+            width: 100%;
+            max-width: 500px;
+            margin: 30px auto 15px auto;
+            border-radius: 12px;
+        }
+
+        .frase {
+            text-align: center;
+            font-style: italic;
+            margin-bottom: 50px;
+        }
+
+        footer {
+            text-align: center;
+            margin: 40px 0;
+            font-size: 14px;
+        }
+
+        /* ---------- DARK MODE (POR DEFECTO) ---------- */
+        body.dark {
+            background-color: #0f0f0f;
+            color: #e0e0e0;
+        }
+
+        body.dark nav a {
+            color: #aaa;
+        }
+
+        body.dark nav a:hover {
+            color: #fff;
+        }
+
+        body.dark p {
+            color: #ccc;
+        }
+
+        body.dark h1,
+        body.dark h2 {
+            color: #f0f0f0;
+        }
+
+        body.dark .frase {
+            color: #999;
+        }
+
+        body.dark footer {
+            color: #777;
+        }
+    </style>
 </head>
 
-<body>
+<body class="dark">
 
     <header>
-        <h1>Hola, soy <span class="nombre">WOLFOCEAN.J.</span>, futuro Full Stack</h1>
-        <p>Este es mi primer proyecto web.</p>
-        <button id="botonSaludo">Haz clic aquí</button>
-<div class="card">
-        <h2>Salúdame</h2>
-        <input type="text" id="nombreUsuario" placeholder="Escribe tu nombre">
-        <button id="botonMostrar">Mostrar saludo</button>
-        <p id="salida"></p>
-</div>
+        <h1>WOLFOCEAN</h1>
+        <p>Crear desde el corazón</p>
 
+        <nav>
+            <a href="index.html">Inicio</a>
+            <a href="sobre-mi.html">Sobre mí</a>
+        </nav>
     </header>
 
-    <section class="card">
-        <h2>Mi foto local</h2>
-        <img src="foto.jpg" class="foto" alt="Mi foto">
-    </section>
+    <img src="img/foto-blog.jpg" alt="WOLFOCEAN.J.R." class="imagen-principal">
 
-    <section class="card">
-        <h2>Mis metas</h2>
-        <ul>
-            <li>Aprender HTML y CSS</li>
-            <li>Crear mi primer app móvil</li>
-            <li>Conseguir trabajo como junior</li>
+    <p class="frase">
+        Crear desde el corazón, incluso cuando el silencio pesa.
+    </p>
+
+    <article>
+        <h2>No hay luz sin oscuridad</h2>
+        <p style="font-size:14px;">Publicado el 15 de diciembre de 2025</p>
+
+        <p>
+            La oscuridad no es el enemigo. Es el lugar donde aprendemos a ver distinto.
+            Donde el silencio habla y el alma se escucha.
+        </p>
+
+        <p>
+            No existe luz sin haber caminado primero por aquello que duele, pesa y transforma.
+        </p>
+    </article>
+
+    <article>
+        <h2>Crear desde el corazón</h2>
+        <p style="font-size:14px;">Publicado el 16 de diciembre de 2025</p>
+
+        <p>
+            Cuando creas desde el corazón, no buscas aprobación, buscas verdad.
+        </p>
+    </article>
+
+    <article>
+        <h2>No hay amor sin dolor</h2>
+        <p style="font-size:14px;">Publicado el 17 de diciembre de 2025</p>
+            
+        <p>
+            No hay amor sin dolor.
+            Porque amar es abrir el alma
+            y aceptar que hasta lo más hermoso puede doler y destruir.
+        </p>
+    </article>
+        <h2>Amor no correspondido:dolor, aceptación y resignación</h2>
+        <p style="font-size:14px;">Publicado el 18 de diciembre de 2025</p>
         
-        </ul>
-    </section>
-<script src="script.js"></script>
+        <p>
+            No me quedé por error.<br>
+            Me quedé porque quise.
+        </p>
+
+        <p>Amarte sin ser amado fue el cuchillo que me clavé yo mismo. No porque no lo viera, sino porque lo acepté. Hay dolores que uno elige sostener cuando la esperanza todavía respira, aunque sepa que va a sangrar.</p>
+
+        <p>Sonreí. No por valentía, sino por resignación. Porque entender también duele, y aceptar es aprender a caminar con el filo dentro sin pedir explicaciones.</p>
+
+        <p>Nadie me empujó a este silencio. Fui yo, quedándome donde no me esperaban, llamando amor a la ausencia, y paciencia a la herida.</p>
+
+        <p>El amor no correspondido no grita. Enseña. Te rompe despacio hasta que comprendes que querer también es saber irse… aunque tardes.</p>
+
+        <p>Y si hoy sigo de pie, no es porque no doliera.</p>
+
+        <p>porque aprendí a cargar el cuchillo con una sonrisa cansada, y a seguir creando desde ahí.</p>
+    
+     <article>
+    <h2>Recuerdos que duelen, aprendizajes que salvan</h2>
+    <p style="font-size:14px;">Publicado el 19 de diciembre de 2025</p>
+
+    <p>
+        Los buenos momentos se convierten en recuerdos valiosos.<br>
+        Los malos momentos duelen, dejan cicatrices y se transforman en aprendizajes.
+    </p>
+
+    <p>
+        Nada fue en vano: incluso en lo roto, nació la fuerza para seguir.
+    </p>
+</article>
+
+<article>
+    <h2>Traición: cuando el golpe duele, pero te enseña a proteger tu luz</h2>
+    <p style="font-size:14px;">Publicado el 20 de diciembre de 2025</p>
+
+    <p>
+        La traición fue el golpe que no vi venir.<br>
+        Me quebró, me dejó desconfiado, me hizo sangrar por dentro.
+    </p>
+
+    <p>
+        Vino de quien sabía dónde dolía, de quien tuvo acceso a mi confianza
+        y aun así eligió romperla.
+    </p>
+
+    <p>
+        Pero entre los restos aprendí esto:<br>
+        no todos merecen acceso a tu luz.
+    </p>
+
+    <p>
+        Me traicionaron… y aun así seguí.<br>
+        No por ellos, sino por mí.
+    </p>
+</article>
+
+<article>
+    <h2>Las distintas formas de amar: no hay manual cuando el amor es real</h2>
+     <p style="font-size:14px; color:#9a9a9a;"> 
+         Sobre los tipos de amor, la libertad de sentir y la paz que deja lo auténtico.
+         Publicado el 21 de diciembre de 2025 .
+    </p>
+
+    <p>
+        Hay diferentes formas de amar.<br>
+        Ninguna viene con instrucciones, ninguna es igual a otra.
+    </p>
+
+    <p>
+        No existe un solo tipo de amor ni una manera correcta de sentirlo.
+        Cada vínculo es distinto, imperfecto, real.
+    </p>
+
+    <p>
+        Algunos amores duelen, otros sanan.<br>
+        Algunos pasan, otros se quedan.
+    </p>
+
+    <p>
+        Pero si uno de ellos te da paz,<br>
+        si en medio de la oscuridad logra hacerte feliz,
+        entonces fue verdadero.
+    </p>
+</article>
+
+<article>
+    <h2>Amar en silencio: cuando sentir es más difícil que hablar</h2>
+
+    <p style="font-size:14px; color:#9a9a9a;">
+        Sobre amar en silencio, guardar lo que duele y vivir con lo que no se dijo.
+        Publicado el 21 de diciembre de 2025 ·
+    </p>
+
+    <p>
+        Amar en silencio no es falta de amor.<br>
+        Es miedo, cuidado, y a veces, resignación.
+    </p>
+
+    <p>
+        Decir lo que siento se me hace difícil
+        porque cuando hablo, me expongo,
+        y cuando me expongo, puedo perderlo todo.
+    </p>
+
+    <p>
+        Por eso callo.<br>
+        No porque no sienta,
+        sino porque siento demasiado.
+    </p>
+
+    <p>
+        Amar en silencio duele,
+        pero también enseña a respetar los tiempos,
+        incluso cuando el corazón quiere gritar.
+    </p>
+
+    <p>
+        Y aunque nunca lo diga,
+        amar así también fue real.
+    </p>
+</article>
+     <footer>
+        <p>© 2025 · WOLFOCEAN.J.R. Todos los derechos reservados.</p>
+        <p>Textos e imágenes protegidos por derechos de autor. Código bajo Licencia MIT.</p>
+    </footer> 
 </body>
 </html>
-
