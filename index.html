@@ -1,226 +1,41 @@
-<!DOCTYPE html>
-<html lang="es">
+s<!DOCTYPE html>
+<html>
 <head>
     <meta charset="UTF-8">
-    <meta name="description" content="Blog personal de WOLFOCEAN.J.R. sobre creación, emociones, luz y oscuridad.">
-    <title>Blog · WOLFOCEAN.J.R.</title>
-
-    <style>
-        /* ---------- BASE ---------- */
-        body {
-            font-family: Georgia, "Times New Roman", serif;
-            line-height: 1.7;
-            margin: 0;
-            padding: 0;
-        }
-
-        header {
-            text-align: center;
-            margin-bottom: 40px;
-        }
-
-        nav a {
-            margin: 0 10px;
-            text-decoration: none;
-            font-size: 14px;
-        }
-
-        article {
-            max-width: 700px;
-            margin: 0 auto 60px auto;
-            padding: 0 20px;
-        }
-
-        h1, h2 {
-            font-weight: normal;
-        }
-
-        .imagen-principal {
-            display: block;
-            width: 100%;
-            max-width: 500px;
-            margin: 30px auto 15px auto;
-            border-radius: 12px;
-        }
-
-        .frase {
-            text-align: center;
-            font-style: italic;
-            margin-bottom: 50px;
-        }
-
-        footer {
-            text-align: center;
-            margin: 40px 0;
-            font-size: 14px;
-        }
-
-        /* ---------- DARK MODE (POR DEFECTO) ---------- */
-        body.dark {
-            background-color: #0f0f0f;
-            color: #e0e0e0;
-        }
-
-        body.dark nav a {
-            color: #aaa;
-        }
-
-        body.dark nav a:hover {
-            color: #fff;
-        }
-
-        body.dark p {
-            color: #ccc;
-        }
-
-        body.dark h1,
-        body.dark h2 {
-            color: #f0f0f0;
-        }
-
-        body.dark .frase {
-            color: #999;
-        }
-
-        body.dark footer {
-            color: #777;
-        }
-    </style>
+    <title>Mi Primera Página</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
-<body class="dark">
-
-    <header>
-        <h1>WOLFOCEAN</h1>
-        <p>Crear desde el corazón</p>
-
-        <nav>
-            <a href="index.html">Inicio</a>
-            <a href="sobre-mi.html">Sobre mí</a>
-        </nav>
-    </header>
-
-    <img src="img/foto-blog.jpg" alt="WOLFOCEAN.J.R." class="imagen-principal">
-
-    <p class="frase">
-        Crear desde el corazón, incluso cuando el silencio pesa.
-    </p>
-
-    <article>
-        <h2>No hay luz sin oscuridad</h2>
-        <p style="font-size:14px;">Publicado el 15 de diciembre de 2025</p>
-
-        <p>
-            La oscuridad no es el enemigo. Es el lugar donde aprendemos a ver distinto.
-            Donde el silencio habla y el alma se escucha.
-        </p>
-
-        <p>
-            No existe luz sin haber caminado primero por aquello que duele, pesa y transforma.
-        </p>
-    </article>
-
-    <article>
-        <h2>Crear desde el corazón</h2>
-        <p style="font-size:14px;">Publicado el 16 de diciembre de 2025</p>
-
-        <p>
-            Cuando creas desde el corazón, no buscas aprobación, buscas verdad.
-        </p>
-    </article>
-
-    <article>
-        <h2>No hay amor sin dolor</h2>
-        <p style="font-size:14px;">Publicado el 17 de diciembre de 2025</p>
-
-        <p>
-            No hay amor sin dolor.
-            Porque amar es abrir el alma
-            y aceptar que hasta lo más hermoso puede doler y destruir.
-        </p>
-    </article>
-
-    <!DOCTYPE html>
-
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Amor no correspondido: dolor, aceptación y resignación</title>
-    <meta name="description" content="Reflexión profunda sobre el amor no correspondido, el dolor aceptado y la resignación silenciosa. Un texto íntimo sobre amar sin ser elegido.">
-
-```
-<style>
-    body {
-        margin: 0;
-        font-family: 'Georgia', serif;
-        background-color: #0e0e0e;
-        color: #e6e6e6;
-        line-height: 1.8;
-    }
-
-    main {
-        max-width: 800px;
-        margin: auto;
-        padding: 60px 24px;
-    }
-
-    h1 {
-        font-size: 2.4rem;
-        margin-bottom: 8px;
-        color: #ffffff;
-    }
-
-    .meta {
-        font-size: 0.9rem;
-        color: #9a9a9a;
-        margin-bottom: 40px;
-    }
-
-    p {
-        font-size: 1.1rem;
-        margin-bottom: 24px;
-    }
-
-    footer {
-        margin-top: 80px;
-        padding-top: 20px;
-        border-top: 1px solid #222;
-        font-size: 0.85rem;
-        color: #777;
-        text-align: center;
-    }
-</style>
-```
-
-</head>
 <body>
 
-<main>
+    <header>
+        <h1>Hola, soy <span class="nombre">WOLFOCEAN.J.</span>, futuro Full Stack</h1>
+        <p>Este es mi primer proyecto web.</p>
+        <button id="botonSaludo">Haz clic aquí</button>
+<div class="card">
+        <h2>Salúdame</h2>
+        <input type="text" id="nombreUsuario" placeholder="Escribe tu nombre">
+        <button id="botonMostrar">Mostrar saludo</button>
+        <p id="salida"></p>
+</div>
 
-<h1>Amor no correspondido: dolor, aceptación y resignación</h1>
-<div class="meta">Publicado por WOLFOCEAN.J.R  18 de diciembre.</div>
+    </header>
 
-<p>No me quedé por error.<br>
-Me quedé porque quise.</p>
+    <section class="card">
+        <h2>Mi foto local</h2>
+        <img src="foto.jpg" class="foto" alt="Mi foto">
+    </section>
 
-<p>Amarte sin ser amado fue el cuchillo que me clavé yo mismo. No porque no lo viera, sino porque lo acepté. Hay dolores que uno elige sostener cuando la esperanza todavía respira, aunque sepa que va a sangrar.</p>
-
-<p>Sonreí. No por valentía, sino por resignación. Porque entender también duele, y aceptar es aprender a caminar con el filo dentro sin pedir explicaciones.</p>
-
-<p>Nadie me empujó a este silencio. Fui yo, quedándome donde no me esperaban, llamando amor a la ausencia, y paciencia a la herida.</p>
-
-<p>El amor no correspondido no grita. Enseña. Te rompe despacio hasta que comprendes que querer también es saber irse… aunque tardes.</p>
-
-<p>Y si hoy sigo de pie, no es porque no doliera.<br>
-Es porque aprendí a cargar el cuchillo con una sonrisa cansada, y a seguir creando desde ahí.</p>
-</main>
-
-
-    <footer>
-        <p>© 2025 · WOLFOCEAN.J.R. Todos los derechos reservados.</p>
-        <p>Textos e imágenes protegidos por derechos de autor. Código bajo Licencia MIT.</p>
-    </footer>
-    
+    <section class="card">
+        <h2>Mis metas</h2>
+        <ul>
+            <li>Aprender HTML y CSS</li>
+            <li>Crear mi primer app móvil</li>
+            <li>Conseguir trabajo como junior</li>
+        
+        </ul>
+    </section>
+<script src="script.js"></script>
 </body>
 </html>
+
